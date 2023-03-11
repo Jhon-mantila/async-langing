@@ -1,12 +1,9 @@
-const API = 'https://youtube-v31.p.rapidapi.com/search?channelId=UCenMvBh8K74uANv8HlIfAuA&part=snippet%2Cid&order=date&maxResults=9';
+const API = 'https://www.googleapis.com/youtube/v3/search?channelId=UCenMvBh8K74uANv8HlIfAuA&part=snippet%2Cid&order=date&maxResults=9&key=AIzaSyDArGh8l3-4YzMTlQx1SgC78ZTLmJm_wE4';
 const content = null || document.getElementById('content');
 
 const options = {
 	method: 'GET',
-	headers: {
-		'X-RapidAPI-Key': '1948e04efdmsh577f18385e96b31p14c91fjsn4f35b4cb2f50',
-		'X-RapidAPI-Host': 'youtube-v31.p.rapidapi.com'
-	}
+    redirect: 'follow'
 };
 
 /*fetch('', options)
