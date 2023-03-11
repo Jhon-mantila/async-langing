@@ -4,7 +4,7 @@
   "description": "Elabarando una landing en el curso de asincronismo de javascript de platzi",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "deploy": "gh-pages -d src"
   },
   "repository": {
     "type": "git",
@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/Jhon-mantila/async-langing/issues"
   },
-  "homepage": "https://github.com/Jhon-mantila/async-langing#readme"
+  "homepage": "https://github.com/Jhon-mantila/async-langing#readme",
+  "devDependencies": {
+    "gh-pages": "^5.0.0"
+  }
 }
