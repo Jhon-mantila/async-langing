@@ -40,7 +40,7 @@ async function fetchData(urlApi){
 
         </div>
         </a>
-        `).slice(0,4).join('')}
+        `).slice(0,8).join('')}
 
         `;
         content.innerHTML = view;
